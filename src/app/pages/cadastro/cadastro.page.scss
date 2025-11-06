@@ -1,0 +1,21 @@
+ion-content{
+  --background: linear-gradient(to bottom, #f2f2f2, #4219da);
+}
+
+h2 {
+   color: black;
+   font-weight: bold;
+   text-align: center;
+}
+
+ion-list{
+background: transparent;
+}
+
+ion-item{
+--background: white; 
+--color: black;
+  border: 2px solid rebeccapurple; /* borda verde */
+  border-radius: 12px;       /* cantos arredondados */
+  margin-bottom: 12px;     
+}
