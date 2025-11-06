@@ -41,7 +41,7 @@ constructor(
     console.log(this.password.value);
     try{
       await this.auth.register(this.email.value ?? '', this.password.value ?? '');
-      console.log('feito o login');
+      console.log('feito o cadastro');
       this.router.navigateByUrl('/login');
     } catch (err: any) {
        console.error('Erro ao cadastrar:', err);
