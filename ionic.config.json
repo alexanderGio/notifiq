@@ -1,0 +1,7 @@
+{
+  "name": "notifiq",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
