@@ -37,8 +37,6 @@ constructor(
   }
 
   async enviaCadastro(){
-    console.log(this.email.value);
-    console.log(this.password.value);
     try{
       await this.auth.register(this.email.value ?? '', this.password.value ?? '');
       console.log('feito o cadastro');
